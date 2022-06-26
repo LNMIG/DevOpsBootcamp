@@ -11,7 +11,7 @@ function App() {
                           'Limpiar'
                       ]
   const [input,setInput] = useState({ chain: "" })
-  const [show,setShow] = useState({ show: "Acá va tu elección" })
+  const [show,setShow] = useState({ show: "tu elección acá" })
   const handleInputChange = function (e) {
     //console.log("Estoy en change:",e.target.value)
       setInput(input => ({...input, chain: e.target.value }))
